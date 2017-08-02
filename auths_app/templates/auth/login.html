@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"This is a sample authentication page"</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="{% url 'login' %}">
+            <label for="email_input">Email</label>
+            <input id="email_input" type="text" name="email">
+            <label for="password_input">Password</label>
+            <input id="password_input" type="password" name="password">
+            <input id="submit_button" type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
